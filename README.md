@@ -2,6 +2,8 @@
 
 > Please note that i was an absolute beginner to nix and learning curve was a bit steeper, so learning and documentation took more than i expected
 
+> Work after  2022-08-22 was mostly mob programming and debugging, and some of the issues are yet to be addressed and some documentation to be completed so contribution to Nix will continue.
+
 **Name**: Yawar Mushtaq ([yawar1](https://github.com/yawar1))
 
 ## 2022-07-18 -- 2022-07-24
@@ -112,62 +114,99 @@ Hours: 37
 
 ## 2022-08-22 -- 2022-08-28
 
-Hours: 
+Hours: 40
 
 **Meetings:**
+* Public Lecture: Hydra, Nix's CI
+* Weekly Team session
+* Pair Programming with Atharva
 
 **Learning:**
+* Hydra, Nix's CI
+* Implementing Cachix in Github Actions
 
 **Worked on packages:**
-
-
-
+* Sylk Mobile
+  * Package [python3-otr](https://github.com/NixOS/nixpkgs/pull/188015)
+* GNUNet Messenger
+    * Triage
+  
 ## 2022-08-29 -- 2022-09-04
 
-Hours:
+Hours: 40
 
 **Meetings:**
+* Weekly Team session
+* Michiel Leenaars - The Significance of Reproducible Software in International R&D 
+* Pair Programming with Atharva
 
 **Learning:**
+* Testing nixos-containers
+* How documentation in Nix toolchains work
+* Mob Programming
 
 **Worked on packages:**
 
-## 2022-09-05 -- 2022-09-11
+* NixOS-Container
+  * Continued Documentation of [nixos-container](https://hackmd.io/4bVSA0uWTPGEh9ZN54fGbQ)
 
-Hours:
+* Waasabi
+  * General Triage
+  * Worked on the [issue](https://github.com/ngi-nix/ngi/issues/256)
 
-**Meetings:**
+* Etherpad
+  * Pair Programmed with Atharva
+  * Used dream2nix and flakes to debug [etherpad](https://github.com/ngi-nix/Etherpad_nix/blob/master/flake.nix)
 
-**Learning:**
+* Sylk Server
+  * Bugfixes in the PR
 
-**Worked on packages:**
+## 2022-09-05 -- 2022-09-18
 
-## 2022-09-12 -- 2022-09-18
-
-Hours:
-
-**Meetings:**
-
-**Learning:**
-
-**Worked on packages:**
-
-## 2022-09-19 -- 2022-09-25
-
-Hours:
+Hours: 30
 
 **Meetings:**
 
+* Pair Programming
+* John Ericson's Nix x IPFS talk
+* Konrad Hinsen - Nix/Guix and Reproducible Science
+
 **Learning:**
+
+* Running nix-darwin with `OSX-KVM`
+* NodeJS on Nix
+* Gitlab actions for cachix
 
 **Worked on packages:**
 
-## 2022-09-26 -- 2022-09-30
+* NextCloud
+  * General Triage
+  * Curated the schema and list of packages needed to be packaged
+  * Will be completed post Summer of Nix( alongside atharva )
+  
+* GNUNet Messenger
+  * General Triage
 
-Hours:
+* NixOS-Container
+  * Continued Documentation of [nixos-container](https://hackmd.io/4bVSA0uWTPGEh9ZN54fGbQ)
+
+## 2022-09-19 -- 2022-09-30
+
+Hours: 30
 
 **Meetings:**
+* Pair Programming with Atharva
+* Luc Perkins - Real World DevOps with Nix
+* Connor Brewster - The Road to Nix at Replit 
 
 **Learning:**
+* crate2nix
+* Github Actions for rust based packages
 
 **Worked on packages:**
+
+* Sylk Server
+  * Bug Fixes and Improvements
+
+* Wiredguard Rust Implementation
+  * Schema for Github Actions
